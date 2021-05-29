@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-21T12:51:42Z" name="Suite1" finished-at="2021-01-21T12:51:42Z" duration-ms="19">
+    <groups>
+      <group name="nopackage">
+        <method signature="NoPackageTest.test()[pri:0, instance:NoPackageTest@682b2fa]" name="test" class="NoPackageTest"/>
+      </group> <!-- nopackage -->
+    </groups>
+    <test started-at="2021-01-21T12:51:42Z" name="FirstTestNG" finished-at="2021-01-21T12:51:42Z" duration-ms="19">
+      <class name="NoPackageTest">
+        <test-method signature="test()[pri:0, instance:NoPackageTest@682b2fa]" started-at="2021-01-21T07:51:42Z" name="test" finished-at="2021-01-21T07:51:42Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="after()[pri:0, instance:NoPackageTest@682b2fa]" started-at="2021-01-21T07:51:42Z" name="after" finished-at="2021-01-21T07:51:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- NoPackageTest -->
+    </test> <!-- FirstTestNG -->
+  </suite> <!-- Suite1 -->
+</testng-results>
